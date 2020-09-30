@@ -10,3 +10,13 @@ Homepage
     OpenBrowser              about:bank    ${BROWSER}
     GoTo                     ${URL}
     CloseAllBrowsers
+
+Sign in
+    [Documentation]          User naviage to the homepage and sign in
+    [Tags]                   login
+    OpenBrowser              about:bank    ${BROWSER}
+    GoTo                     ${URL}
+    ClickTect                Sign in
+    Type text                Email address     training.qentinel@gmail.com     password
+    Type text                Passeord          ${PASSWORD}    
+    Clicktext                Sign in           Foeget you password?
