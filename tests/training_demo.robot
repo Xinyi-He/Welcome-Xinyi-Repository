@@ -7,6 +7,6 @@ Resource                     ../resources/locators.robot
 Homepage
     [Documentation]          The first exercise test case
     [Tags]                   training
-    OpenBrowser              about:bank    chrome
-    GoTo                     http://automationpractice.com/
+    OpenBrowser              about:bank    ${BROWSER}
+    GoTo                     ${URL}
     CloseAllBrowsers
