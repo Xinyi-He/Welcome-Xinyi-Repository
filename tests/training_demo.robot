@@ -2,6 +2,8 @@
 Documentation                Tests for Qentinel Pace Foundation training
 Resource                     ../resources/keywords.robot
 Resource                     ../resources/locators.robot
+Suite Setup                  Start Suite
+Suite Teardown               End Suite
 
 *** Test Cases ***
 Homepage
